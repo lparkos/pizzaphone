@@ -1,0 +1,59 @@
+.drawerpanel { 
+    width: 565px;
+    right: 0;
+    animation-duration: .3s;
+    -webkit-animation-duration: .3s;
+    animation-name: ha-drawer-slide-in;
+    -webkit-animation-name: ha-drawer-slide-in;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-delay: 0;
+    -webkit-animation-delay: 0;
+    border-left: 1px solid #d4d7dc;
+}
+
+.inputBG {
+    background: #ECEEF1;
+    position: relative;
+    margin: 2px;
+    padding: 4px 8px 3px;
+}
+
+.formbg {
+    background-image: url("../../img/new-customer-bg.png");
+    background-size: 100%;
+    height: 80vh;
+    z-index: 5;
+    top: 12vh;
+    width: 80%;
+    background-repeat: no-repeat;
+  }
+
+  .inputbgSAVE {
+    position: relative;
+    top: 93px;
+    width: 91%;
+    margin: 0 auto;
+    border: 1px solid green;
+  }
+
+  .buttonStyle { 
+    line-height: 36px;
+    color: #fff!important;
+    border: none!important;
+    background: #2ca01c!important;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 0!important;
+    padding-bottom: 0;
+    border-radius: 36px;
+    height: auto;
+    min-height: 36px;
+    min-width: 100px;
+    line-height: 20px;
+    font-family: "Avenir Next forINTUIT",Avenir,sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 30% 3% 0 73%;  
+}
+
