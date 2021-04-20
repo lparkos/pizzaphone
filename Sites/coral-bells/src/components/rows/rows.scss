@@ -1,0 +1,45 @@
+.row {
+  font-size: 16px;
+  font-family: 'Netflix Sans';
+
+  .title-container { 
+    display: flex;
+
+    img {
+      width: 15px;
+      height: 15px;
+      transform: translateY(8px);
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .show-text { 
+      padding-left: 1vw;
+      cursor:pointer;
+    }
+  }
+}
+
+.card {
+  display: flex;
+  overflow-y: scroll;
+
+   .small {
+       width: 100%;
+       padding-right: 2vw;
+
+      img {
+        width: 100%;
+      }
+   }
+
+   .large {
+    width: auto;
+    padding-right: 2vw;
+
+   img {
+     width: 50vw;
+   }
+}
+
+}
